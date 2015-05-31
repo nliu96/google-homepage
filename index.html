@@ -9,20 +9,73 @@
 </head>
 
 <body>
-    <ul class="nav">
-        <li><a href="https://plus.google.com/u/0/?tab=wX" title="+Nick">+Nick</a></li>
-        <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0" tile="Mail">Mail</a></li>
-        <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=jVxpVev5F4mUsgHS94DQDA&ved=0CBUQqi4oAg" title="Images">Images</a></li>
-        <li><a href="http://www.google.com/intl/en/options/ " title="Apps">Apps</a></li>
-        <li><a href="https://google.com" title="Notifications">Notifications</a></li>
-        <li><a href="https://google.com" title="Google+ Share">Google+ Share</a></li>
-        <li><a href="https://plus.google.com/u/0/me?tab=wX&authuser=0" title="Account">Account</a></li>
-    </ul>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="https://plus.google.com/u/0/?tab=wX" title="+Nick">+Nick</a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail/?tab=wm&authuser=0" tile="Gmail">Gmail</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=jVxpVev5F4mUsgHS94DQDA&ved=0CBUQqi4oAg" title="Images">Images</a>
+            </li>
+            <li>
+                <a class="apps" href="http://www.google.com/intl/en/options/ " title="Apps"></a>
+            </li>
+            <li>
+                <a class="bell" href="https://google.com" title="Notifications"></a>
+            </li>
+            <li>
+                <a href="https://google.com" title="Share">Share</a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/u/0/me?tab=wX&authuser=0" title="Account"><img class="face" src="images\face.jpg"></a>
+            </li>
+        </ul>
+    </div>
 
-    <img height="95" src="images\googleLogo.png">
-    <form action="POST">
-        <input type="text" name="search">
-    </form>
+    <img id="googleLogo" class="center" height="95" src="images\googleLogo.png">
+
+    <div class="search">
+        <form action="POST">
+            <div class="searchInput">
+                <input type="text" name="search">
+            </div>
+            <div class="button">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div>
+            <ul class="footer-left">
+                <li>
+                    <a href="https://www.google.com/intl/en/ads/?fg=1" title="Advertising">Advertising</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/services/?fg=1" tile="Business">Business</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/intl/en/about.html?fg=1" title="About">About</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer-right">
+                <li>
+                    <a href="https://www.google.com/intl/en/policies/privacy/?fg=1" title="Privacy">Privacy</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/intl/en/policies/terms/?fg=1" tile="Terms">Terms</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/preferences?hl=en" title="Settings">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
